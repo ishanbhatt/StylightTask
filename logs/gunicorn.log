@@ -1,0 +1,235 @@
+[2019-08-13 15:22:59 +0530] [1061] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:5200']
+  backlog: 2048
+  workers: 10
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/ishanbhatt/STYLIGHT/StylightTask
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 62010
+  group: 50513
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: logs/gunicorn.log
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: True
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: Stylight
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f6de1bf29d8>
+  on_reload: <function OnReload.on_reload at 0x7f6de1bf2ae8>
+  when_ready: <function WhenReady.when_ready at 0x7f6de1bf2bf8>
+  pre_fork: <function Prefork.pre_fork at 0x7f6de1bf2d08>
+  post_fork: <function Postfork.post_fork at 0x7f6de1bf2e18>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f6de1bf2f28>
+  worker_int: <function WorkerInt.worker_int at 0x7f6de1c090d0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f6de1c091e0>
+  pre_exec: <function PreExec.pre_exec at 0x7f6de1c092f0>
+  pre_request: <function PreRequest.pre_request at 0x7f6de1c09400>
+  post_request: <function PostRequest.post_request at 0x7f6de1c09488>
+  child_exit: <function ChildExit.child_exit at 0x7f6de1c09598>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f6de1c096a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f6de1c097b8>
+  on_exit: <function OnExit.on_exit at 0x7f6de1c098c8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-13 15:22:59 +0530] [1061] [INFO] Starting gunicorn 19.9.0
+[2019-08-13 15:22:59 +0530] [1061] [DEBUG] Arbiter booted
+[2019-08-13 15:22:59 +0530] [1061] [INFO] Listening at: http://0.0.0.0:5200 (1061)
+[2019-08-13 15:22:59 +0530] [1061] [INFO] Using worker: sync
+[2019-08-13 15:22:59 +0530] [1064] [INFO] Booting worker with pid: 1064
+[2019-08-13 15:22:59 +0530] [1065] [INFO] Booting worker with pid: 1065
+[2019-08-13 15:22:59 +0530] [1069] [INFO] Booting worker with pid: 1069
+[2019-08-13 15:22:59 +0530] [1071] [INFO] Booting worker with pid: 1071
+[2019-08-13 15:22:59 +0530] [1072] [INFO] Booting worker with pid: 1072
+[2019-08-13 15:23:00 +0530] [1074] [INFO] Booting worker with pid: 1074
+[2019-08-13 15:23:00 +0530] [1077] [INFO] Booting worker with pid: 1077
+[2019-08-13 15:23:00 +0530] [1078] [INFO] Booting worker with pid: 1078
+[2019-08-13 15:23:00 +0530] [1080] [INFO] Booting worker with pid: 1080
+[2019-08-13 15:23:00 +0530] [1081] [INFO] Booting worker with pid: 1081
+[2019-08-13 15:23:00 +0530] [1061] [DEBUG] 10 workers
+[2019-08-13 15:23:02 +0530] [1080] [DEBUG] GET /
+[2019-08-13 15:23:02 +0530] [1080] [DEBUG] GET /swaggerui/droid-sans.css
+[2019-08-13 15:23:02 +0530] [1074] [DEBUG] GET /swaggerui/swagger-ui.css
+[2019-08-13 15:23:02 +0530] [1071] [DEBUG] GET /swaggerui/swagger-ui-bundle.js
+[2019-08-13 15:23:02 +0530] [1081] [DEBUG] GET /swaggerui/swagger-ui-standalone-preset.js
+[2019-08-13 15:23:02 +0530] [1081] [DEBUG] GET /swagger.json
+[2019-08-13 15:23:18 +0530] [1071] [DEBUG] POST /event
+[2019-08-13 15:23:30 +0530] [1069] [DEBUG] POST /event
+[2019-08-13 15:23:45 +0530] [1072] [DEBUG] POST /event
+[2019-08-13 15:23:54 +0530] [1071] [DEBUG] POST /event
+[2019-08-13 15:24:09 +0530] [1074] [DEBUG] POST /event
+[2019-08-13 15:24:47 +0530] [1064] [DEBUG] GET /report
+LLLLLLLLLLLLLLLLAAAAAAAAAAAAAAAAAAAAAAAAAAAALLLLLLLLLLLLLLLLLLLLLLLLLLAAAAAAAAAAAAAAAAAAAAA
+[2019-08-13 15:24:55 +0530] [1065] [DEBUG] GET /report
+LLLLLLLLLLLLLLLLAAAAAAAAAAAAAAAAAAAAAAAAAAAALLLLLLLLLLLLLLLLLLLLLLLLLLAAAAAAAAAAAAAAAAAAAAA
+[2019-08-13 15:33:04 +0530] [1061] [INFO] Handling signal: int
+[2019-08-13 15:33:04 +0530] [1071] [INFO] Worker exiting (pid: 1071)
+[2019-08-13 15:33:04 +0530] [1074] [INFO] Worker exiting (pid: 1074)
+[2019-08-13 15:33:04 +0530] [1080] [INFO] Worker exiting (pid: 1080)
+[2019-08-13 15:33:04 +0530] [1065] [INFO] Worker exiting (pid: 1065)
+[2019-08-13 15:33:04 +0530] [1069] [INFO] Worker exiting (pid: 1069)
+[2019-08-13 15:33:04 +0530] [1078] [INFO] Worker exiting (pid: 1078)
+[2019-08-13 15:33:04 +0530] [1064] [INFO] Worker exiting (pid: 1064)
+[2019-08-13 15:33:04 +0530] [1072] [INFO] Worker exiting (pid: 1072)
+[2019-08-13 15:33:04 +0530] [1081] [INFO] Worker exiting (pid: 1081)
+[2019-08-13 15:33:04 +0530] [1077] [INFO] Worker exiting (pid: 1077)
+[2019-08-13 15:33:04 +0530] [1061] [INFO] Shutting down: Master
+[2019-08-14 11:22:39 +0530] [8000] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:5200']
+  backlog: 2048
+  workers: 10
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/ishanbhatt/STYLIGHT/StylightTask
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 62010
+  group: 50513
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: logs/gunicorn.log
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: True
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: Stylight
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f1eb1f909d8>
+  on_reload: <function OnReload.on_reload at 0x7f1eb1f90ae8>
+  when_ready: <function WhenReady.when_ready at 0x7f1eb1f90bf8>
+  pre_fork: <function Prefork.pre_fork at 0x7f1eb1f90d08>
+  post_fork: <function Postfork.post_fork at 0x7f1eb1f90e18>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f1eb1f90f28>
+  worker_int: <function WorkerInt.worker_int at 0x7f1eb1fa70d0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f1eb1fa71e0>
+  pre_exec: <function PreExec.pre_exec at 0x7f1eb1fa72f0>
+  pre_request: <function PreRequest.pre_request at 0x7f1eb1fa7400>
+  post_request: <function PostRequest.post_request at 0x7f1eb1fa7488>
+  child_exit: <function ChildExit.child_exit at 0x7f1eb1fa7598>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f1eb1fa76a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f1eb1fa77b8>
+  on_exit: <function OnExit.on_exit at 0x7f1eb1fa78c8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-08-14 11:22:39 +0530] [8000] [INFO] Starting gunicorn 19.9.0
+[2019-08-14 11:22:39 +0530] [8000] [DEBUG] Arbiter booted
+[2019-08-14 11:22:39 +0530] [8000] [INFO] Listening at: http://0.0.0.0:5200 (8000)
+[2019-08-14 11:22:39 +0530] [8000] [INFO] Using worker: sync
+[2019-08-14 11:22:39 +0530] [8003] [INFO] Booting worker with pid: 8003
+[2019-08-14 11:22:39 +0530] [8004] [INFO] Booting worker with pid: 8004
+[2019-08-14 11:22:39 +0530] [8007] [INFO] Booting worker with pid: 8007
+[2019-08-14 11:22:39 +0530] [8008] [INFO] Booting worker with pid: 8008
+[2019-08-14 11:22:39 +0530] [8010] [INFO] Booting worker with pid: 8010
+[2019-08-14 11:22:39 +0530] [8011] [INFO] Booting worker with pid: 8011
+[2019-08-14 11:22:39 +0530] [8014] [INFO] Booting worker with pid: 8014
+[2019-08-14 11:22:39 +0530] [8017] [INFO] Booting worker with pid: 8017
+[2019-08-14 11:22:39 +0530] [8018] [INFO] Booting worker with pid: 8018
+[2019-08-14 11:22:39 +0530] [8022] [INFO] Booting worker with pid: 8022
+[2019-08-14 11:22:39 +0530] [8000] [DEBUG] 10 workers
+[2019-08-14 11:22:45 +0530] [8010] [DEBUG] GET /
+[2019-08-14 11:22:45 +0530] [8017] [DEBUG] GET /swagger.json
+[2019-08-14 11:22:47 +0530] [8000] [INFO] Handling signal: int
+[2019-08-14 11:22:47 +0530] [8018] [INFO] Worker exiting (pid: 8018)
+[2019-08-14 11:22:47 +0530] [8017] [INFO] Worker exiting (pid: 8017)
+[2019-08-14 11:22:47 +0530] [8010] [INFO] Worker exiting (pid: 8010)
+[2019-08-14 11:22:47 +0530] [8007] [INFO] Worker exiting (pid: 8007)
+[2019-08-14 11:22:47 +0530] [8011] [INFO] Worker exiting (pid: 8011)
+[2019-08-14 11:22:47 +0530] [8003] [INFO] Worker exiting (pid: 8003)
+[2019-08-14 11:22:47 +0530] [8004] [INFO] Worker exiting (pid: 8004)
+[2019-08-14 11:22:47 +0530] [8014] [INFO] Worker exiting (pid: 8014)
+[2019-08-14 11:22:47 +0530] [8008] [INFO] Worker exiting (pid: 8008)
+[2019-08-14 11:22:47 +0530] [8022] [INFO] Worker exiting (pid: 8022)
+[2019-08-14 11:22:48 +0530] [8000] [INFO] Shutting down: Master
